@@ -68,8 +68,8 @@ public class SpellCheckPlugin
   }
 
   /**
-   * Initiates call to native spell checker to spell check specified text if there is no result
-   * awaiting a response.
+   * Initiates call to native spell checker to spell check specified text if there is no request to
+   * fetch spell check results awaiting a response.
    */
   @Override
   public void initiateSpellCheck(
